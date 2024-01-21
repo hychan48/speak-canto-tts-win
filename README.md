@@ -17,3 +17,8 @@ $Speech.SelectVoice("Microsoft Tracy Desktop") # Hong Kong Chinese and English
 $Message = '你好，我叫曉言。我會為你讀出你所輸入嘅文字。';$Speech.Speak($Message)
 ```
 
+### References
+* https://www.cantoneseclass101.com/key-cantonese-phrases/
+
+# Node Dot Net
+* https://github.com/microsoft/node-api-dotnet
