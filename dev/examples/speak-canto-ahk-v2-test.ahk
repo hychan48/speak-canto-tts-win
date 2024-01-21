@@ -19,7 +19,8 @@ MouseGetPos &ogxpos, &ogypos
 ; HelloWorld := "Hello"
 ; HelloWorld := "HelloWorld"
 HelloWorld := "Hello World"
-Run('PowerShell -NonInteractive -WindowStyle Hidden -ExecutionPolicy Bypass -File "speak-canto.ps1" "' . HelloWorld . '"', "C:\Users\Jason\OneDrive\Documents\GitHub\speak-canto-tts-win\src")
+; Run('PowerShell -NonInteractive -WindowStyle Hidden -ExecutionPolicy Bypass -File "speak-canto.ps1" "' . HelloWorld . '"', "C:\Users\Jason\OneDrive\Documents\GitHub\speak-canto-tts-win\src")
+Run('PowerShell -NonInteractive -WindowStyle Hidden -ExecutionPolicy Bypass -File "speak-canto.ps1" -text "' . HelloWorld . '"', "C:\Users\Jason\OneDrive\Documents\GitHub\speak-canto-tts-win\src")
 
 ;----------------------
 WinActivate(active_id)
