@@ -6,6 +6,16 @@ Quick and dirty script for using Window's 11 tts "Tracy" for Cantonese
 * [ ] AHK Version 2
 
 ## Usage
+```ps1
+# Clone repo
+git clone git@github.com:hychan48/speak-canto-tts-win.git
+# Load ahkv2 - Check #hotif / and hotkey
+src/speak-canto.ahk
+
+# Text to Speech TTS Clipboard - Shortcut Default
+## Ctrl+F1
+
+```
 
 
 ## Smoke Test
