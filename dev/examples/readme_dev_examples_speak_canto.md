@@ -17,5 +17,7 @@
 $Speech = New-Object System.Speech.Synthesis.SpeechSynthesizer
 $Speech.GetInstalledVoices().VoiceInfo
 $Speech.GetInstalledVoices().VoiceInfo | ft
-
+# danny and tracy works for chinese
+# but dont see danny in the speech. only in the voices
+# * time * language * speech
 ```
