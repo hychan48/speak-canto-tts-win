@@ -5,7 +5,7 @@ SetWorkingDir A_ScriptDir
 ; Watch clipboard for changes later
 ; If chrome or setup group
 GroupAdd "Cantonese", "ahk_class Chrome_WidgetWin_1" ; vscode, chrome etc
-#HotIf WinActive("ahk_group Cantonese")
+; #HotIf WinActive("ahk_group Cantonese")
 ; on hotkey left ctrl f1. let's go with that
 ; Using PS1 for now
 ; maybe add to clipboard just in case? or check if i can get chrome's selected text
