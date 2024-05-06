@@ -14,6 +14,10 @@
 
 ### debug
 ```ps1
+# https://learn.microsoft.com/en-us/uwp/api/windows.media.speechsynthesis.speechsynthesizer?view=winrt-22621
+$Speech = New-Object Windows.Media.SpeechSynthesis.SpeechSynthesize
+# https://learn.microsoft.com/en-us/dotnet/api/system.speech.synthesis.speechsynthesizer?view=net-8.0`
+
 $Speech = New-Object System.Speech.Synthesis.SpeechSynthesizer
 $Speech.GetInstalledVoices().VoiceInfo
 $Speech.GetInstalledVoices().VoiceInfo | ft
