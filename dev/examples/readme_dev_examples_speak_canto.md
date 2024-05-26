@@ -1,5 +1,5 @@
 # File watcher
-* 
+* that does it on save?/changed?
 
 
 ## Check list
@@ -13,6 +13,13 @@
 
 
 ### debug
+#### Non-natural voices here...
+* TTS_MS_ZH-HK_TRACY_11.0
+* TTS_MS_ZH-TW_HANHAN_11.0
+* TTS_MS_ZH-CN_HUIHUI_11.0
+
+* TTS_MS_EN-US_DAVID_11.0
+* TTS_MS_EN-US_ZIRA_11.0
 ```ps1
 # https://learn.microsoft.com/en-us/uwp/api/windows.media.speechsynthesis.speechsynthesizer?view=winrt-22621
 $Speech = New-Object Windows.Media.SpeechSynthesis.SpeechSynthesize
@@ -25,3 +32,8 @@ $Speech.GetInstalledVoices().VoiceInfo | ft
 # but dont see danny in the speech. only in the voices
 # * time * language * speech
 ```
+
+* [ ] Check for natural voices like
+  * hui hui
+  * hanhan
+
